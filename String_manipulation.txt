@@ -1,0 +1,9 @@
+use strict;
+
+my $string = "This is an example string for manipulatin and i am just adding and to This\n";
+
+#index
+my $search = "and";
+my $position = index($string, $search);
+
+print("Index value : $position\n");
